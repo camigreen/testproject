@@ -29,13 +29,13 @@ echo 'start</br>';
     // If there is already a repo, just run a git pull to grab the latest changes
     echo `cd {$LOCAL_REPO} && git pull`;
 
-    die("done " . time());
+    die("done Repo Pulled" . time());
   } else {
 
     // If the repo does not exist, then clone it into the parent directory
     echo `cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO}`;
 
-    die("done " . time());
+    die("done Repo Cloned" . time());
   }
 //}
 echo 'finish';
