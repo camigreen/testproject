@@ -22,6 +22,7 @@ $REMOTE_REPO        = "git@github.com:camigreen/testproject.git";
 $BRANCH             = "master";
 
 if ( $_POST['payload'] ) {
+	echo 'yes';
   // Only respond to POST requests from Github
 
   if( file_exists($LOCAL_REPO) ) {
