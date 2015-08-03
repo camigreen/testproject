@@ -1,6 +1,6 @@
 <?php 
 
-$output = `git pull`; 
+$output = `git help`; 
 echo "<pre>$output</pre>";
 
 ?>
