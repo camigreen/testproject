@@ -1,6 +1,6 @@
 <?php 
 
-$output = `git pull`; 
-echo "<pre>$output</pre>";
+echo `git pull`;
+echo `whoami`;
 
 ?>
