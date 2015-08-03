@@ -23,7 +23,7 @@ $BRANCH             = "master";
 echo 'start</br>';
 // if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
   // Only respond to POST requests from Github
-
+  echo $LOCAL_REPO;
   if( file_exists($LOCAL_REPO) ) {
 
     // If there is already a repo, just run a git pull to grab the latest changes
