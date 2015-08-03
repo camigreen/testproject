@@ -1,3 +1,3 @@
 <?php `git pull`; 
-	var_dump($_POST);
+	echo 'Test Complete';
 ?>
