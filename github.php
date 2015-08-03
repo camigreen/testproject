@@ -1,7 +1,6 @@
 <?php 
 
-$output = `whoami`; 
+$output = `git pull`; 
 echo "<pre>$output</pre>";
-var_dump($_POST);
 
 ?>
