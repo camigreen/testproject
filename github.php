@@ -1,3 +1,6 @@
-<?php `git pull`; 
-	echo 'Test Complete';
+<?php 
+
+$output = `ls -al`; 
+echo "<pre>$output</pre>";
+
 ?>
