@@ -21,8 +21,7 @@ $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:camigreen/testproject.git";
 $BRANCH             = "master";
 echo 'start</br>';
-if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
-	echo 'yes';
+//if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
   // Only respond to POST requests from Github
 
   if( file_exists($LOCAL_REPO) ) {
@@ -38,7 +37,7 @@ if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
 
     die("done " . mktime());
   }
-}
+//}
 echo 'finish';
 
 ?>
