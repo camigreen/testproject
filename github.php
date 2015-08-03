@@ -1,6 +1,6 @@
 <?php 
 
-$output = `git pull`; 
+$output = `ls`; 
 echo "<pre>$output</pre>";
 var_dump($_POST);
 
