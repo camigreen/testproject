@@ -1,6 +1,6 @@
 <?php 
 
-$output = `ls -al`; 
+$output = `git pull`; 
 echo "<pre>$output</pre>";
 
 ?>
