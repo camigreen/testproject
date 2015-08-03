@@ -21,6 +21,7 @@ $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:camigreen/testproject.git";
 $BRANCH             = "master";
 echo 'start</br>';
+var_dump($_POST);
 if ( $_POST['payload'] ) {
 	echo 'yes';
   // Only respond to POST requests from Github
