@@ -23,6 +23,7 @@ $BRANCH             = "master";
 echo 'start</br>';
 // if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
   // Only respond to POST requests from Github
+ echo `ls`;
   var_dump(file_exists($LOCAL_REPO));
   if( file_exists($LOCAL_REPO) ) {
 
