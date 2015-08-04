@@ -28,6 +28,7 @@
 
     // If there is already a repo, just run a git pull to grab the latest changes
     echo `cd`;
+    echo `mkdir test`;
     echo `ls`;
     echo `git pull`;
 
