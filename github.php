@@ -27,7 +27,7 @@
   // if( file_exists($LOCAL_REPO) ) {
 
     // If there is already a repo, just run a git pull to grab the latest changes
-    echo `git pull && ls`;
+    echo `ls`;
 
 //     die("done Repo Pulled" . time());
 //   } else {
