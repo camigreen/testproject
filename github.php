@@ -24,7 +24,7 @@ echo 'start</br>';
 // if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
   // Only respond to POST requests from Github
  echo `ls`;
-  var_dump(file_exists('index.html'));
+  var_dump(file_exists("$LOCAL_REPO/index.html"));
   if( file_exists($LOCAL_REPO) ) {
 
     // If there is already a repo, just run a git pull to grab the latest changes
