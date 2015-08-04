@@ -15,7 +15,7 @@
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "/dev";
+$LOCAL_ROOT         = "/public_html/dev";
 $LOCAL_REPO_NAME    = "testproject";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:camigreen/testproject.git";
@@ -24,7 +24,7 @@ echo 'start</br>';
 // if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
   // Only respond to POST requests from Github
  echo `ls`;
-  var_dump(file_exists($LOCAL_REPO));
+  var_dump(file_exists('../public_html/dev'));
   if( file_exists($LOCAL_REPO) ) {
 
     // If there is already a repo, just run a git pull to grab the latest changes
