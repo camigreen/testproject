@@ -15,7 +15,7 @@
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "/public_html/dev";
+$LOCAL_ROOT         = "/dev";
 $LOCAL_REPO_NAME    = "testproject";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:camigreen/testproject.git";
