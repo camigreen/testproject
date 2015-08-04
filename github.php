@@ -27,7 +27,7 @@
   // if( file_exists($LOCAL_REPO) ) {
 
     // If there is already a repo, just run a git pull to grab the latest changes
-    echo `root@palmettoimages.com git pull`;
+    echo `git pull`;
 
 //     die("done Repo Pulled" . time());
 //   } else {
